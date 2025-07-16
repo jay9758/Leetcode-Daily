@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/?envType=daily-question&envId=2025-07-16
 public class july16 {
     public int maximumLength(int[] nums) {
         int res = 0;
