@@ -4,7 +4,7 @@ public class july21 {
         int frequency = 1;
         StringBuilder ans = new StringBuilder();
         ans.append(s.charAt(0));
-        for (int i = 1; i < s.length(); i++) {
+        for (int i = 1;i < s.length();i++) {
             if (s.charAt(i) == prev) {
                 // If the current character is equal to the previous character, increment the
                 // frequency.
