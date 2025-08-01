@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class aug1 {
+public class aug1 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> pascal = new ArrayList<>();
 
@@ -16,5 +16,5 @@ class aug1 {
             pascal.add(row);
         }
         return pascal;
-    }    
+    }
 }
